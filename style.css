@@ -9,6 +9,59 @@ html {
 
 ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    display: inline-block;
+    color: white;
+    float: right;
+}
+a.link{
+    color:white;
+}
+header {
+    background-color:  black;
+    display:block;
+    position: fixed;
+    width: 100%;
+}
+main {
+    display: block;
+}
+h1{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+}
+li{
+    display: inline;
+    color: white;
+}
+nav{
+    display: inline;
+}
+img{
+    border-radius: 50%;
+} 
+.description img{
+    float: left;
+    display: block;
+    background-color: red;
+    border-radius: 0
+}
+
+.description p{
+    display: block;
+}
+.description-p2 p{
+    clear: both;
+    display: block;
+}
+
+
+.relationship img {
+    float: right;
+    margin-right: 100px;
+}
+#description section {
+    display: block;
 }
